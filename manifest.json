@@ -2,9 +2,9 @@
     "manifest_version": 2,
     "version": "1.1",
 
-    "name": "SearX Search",
-    "description": "Adds SearX as the default search engine in your browser.",
-    "author": "Hedreon",
+    "name": "SearX Search PaulGO",
+    "description": "Adds SearX PaulGO server as the default search engine in your browser.",
+    "author": "Hedreon, fork by AniiKai",
 
     "icons": {
         "16": "icons/16.png",
@@ -18,11 +18,11 @@
 
     "chrome_settings_overrides": {
         "search_provider": {
-          "name": "SearX",
-          "keyword": "@searx, @sx",
-          "search_url": "https://searx.org/search?q={searchTerms}",
+          "name": "SearX, PaulGO",
+          "keyword": "@searx, @sx, @paulgo",
+          "search_url": "https://paulgo.io/search?q={searchTerms}",
           "favicon_url": "icons/256.png",
-          "suggest_url": "https://searx.org/autocompleter?q={searchTerms}",
+          "suggest_url": "https://paulgo.io/autocompleter?q={searchTerms}",
           "is_default": true
         }
     }
